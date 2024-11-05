@@ -126,5 +126,23 @@ section h2 {
 
 #scrollTopBtn:hover {
     background-color: var(--color3);
+}
+
+#about {
+    font-family: ShameimaruSans;
+    text-align: center; 
+}
+  
+.about-images {
+    display: flex;
+    justify-content: center; 
+    gap: 15px; 
+    margin-top: 40px; 
+}
+  
+.about-image {
+    width: 250px; 
+    height: auto; 
+    border-radius: 5px; 
   }
   

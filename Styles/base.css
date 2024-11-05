@@ -1,13 +1,18 @@
 @font-face{
-    font-family: "Monsterrat";
+    font-family: "ShameimaruSansBold";
     src: url(/Assets/Fonts/ShameimaruSans-9VX0.ttf)
+}
+
+@font-face {
+    font-family: "ShameimaruSans";
+    src: url(/Assets/Fonts/ShameimaruSansAlternatives-lwKq.ttf);
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Monsterrat;
+    font-family: ShameimaruSansBold;
 }
 
 nav {
