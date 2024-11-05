@@ -1,0 +1,29 @@
+.hero {
+    background-color: var(--color3); 
+    color: var(--text-light);
+    text-align: center;
+    padding: 2em 1em;
+    position: relative;
+}
+  
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+  
+.hero p {
+    font-size: 1.2em;
+}
+  
+.video-container {
+    max-width: 100%;
+    margin: 1em 0;
+    overflow: hidden;
+    border-radius: 8px;
+}
+  
+.video-container video {
+    width: 100%;
+    height: auto;
+    background-color: var(--color3); 
+}
