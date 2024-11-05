@@ -37,7 +37,31 @@ p {
 }
   
 .video-container video {
-    width: 100%;
+    width: 20%;
     height: auto;
     background-color: var(--color3); 
 }
+
+section {
+    padding: 2em 1em;
+    max-width: 800px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e0e0e0;
+}
+  
+section h2 {
+    color: var(--color2);
+}
+  
+.services, .process {
+    background-color: #f1f7fd;
+    padding: 3em 1em;
+}
+  
+.section-content {
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+  

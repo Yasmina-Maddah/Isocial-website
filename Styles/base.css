@@ -63,6 +63,20 @@ nav div {
     gap: 10px; 
 }
   
-  .nav-repeat-image {
+.nav-repeat-image {
     height: 30px; 
+}
+
+.btn {
+    background-color: var(--color1);
+    color: var(--text-light);
+    padding: 0.8em 1.5em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+  
+.btn:hover {
+    background-color: var(--color2);
 }
