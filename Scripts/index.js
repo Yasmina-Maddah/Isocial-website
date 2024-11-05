@@ -37,4 +37,32 @@ const scrollTopBtn = document.getElementById("scrollTopBtn");
   scrollTopBtn.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+
+function animateCounters() {
+    const counters = document.querySelectorAll(".counter");
+    counters.forEach(counter => {
+      counter.innerText = '0';
+      const updateCounter = () => {
+        const target = +counter.getAttribute("data-target");
+        const count = +counter.innerText;
+        const increment = target / 100; 
+        if (count < target) {
+          counter.innerText = Math.ceil(count + increment);
+          setTimeout(updateCounter, 20);
+        } else {
+          counter.innerText = target;
+        }
+      };
+      updateCounter();
+    });
+}
+  
+window.addEventListener("scroll", () => {
+    const aboutSection = document.getElementById("about");
+    const aboutPosition = aboutSection.getBoundingClientRect().top;
+    const screenPosition = window.innerHeight / 1.3;
+    if (aboutPosition < screenPosition) {
+      animateCounters();
+    }
+});
   
