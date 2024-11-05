@@ -107,7 +107,7 @@ section h2 {
     font-size: 0.9em;
 }
 
-.scrollTopBtn {
+#scrollTopBtn {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -124,7 +124,7 @@ section h2 {
   }
   
 
-.scrollTopBtn:hover {
+#scrollTopBtn:hover {
     background-color: var(--color3);
   }
   
