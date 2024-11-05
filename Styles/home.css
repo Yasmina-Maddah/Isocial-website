@@ -28,18 +28,21 @@ p {
 .hero p {
     font-size: 1.2em;
 }
-  
+
 .video-container {
-    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 1em 0;
-    overflow: hidden;
+    background-color: var(--color3); 
+    padding: 1em;
     border-radius: 8px;
 }
   
 .video-container video {
-    width: 20%;
-    height: auto;
-    background-color: var(--color3); 
+    width: 40%;  
+    max-width: 200px;  
+    border-radius: 8px;
 }
 
 section {
@@ -104,7 +107,7 @@ section h2 {
     font-size: 0.9em;
 }
 
-#scrollTopBtn {
+.scrollTopBtn {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -121,7 +124,7 @@ section h2 {
   }
   
 
-#scrollTopBtn:hover {
+.scrollTopBtn:hover {
     background-color: var(--color3);
   }
   
