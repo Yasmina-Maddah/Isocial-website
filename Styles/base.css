@@ -1,0 +1,68 @@
+@font-face{
+    font-family: "Monsterrat";
+    src: url(/Assets/Fonts/ShameimaruSans-9VX0.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Monsterrat;
+}
+
+nav {
+    background-color: var(--text-light);
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color1);
+  }
+  
+nav a {
+    color: var(--color1);
+    margin-left: 1em;
+    text-decoration: none;
+}
+  
+nav div {
+    display: flex;
+    align-items: center;
+}
+  
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+  
+  
+.logo {
+    height: 40px; 
+}
+  
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #21DADB;
+}
+  
+  
+.logo-title {
+    font-size: 1.2em; 
+    font-weight: bold;
+}
+  
+.logo-subtitle {
+    font-size: 0.8em;
+}
+
+.image-row {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+  
+  .nav-repeat-image {
+    height: 30px; 
+}
